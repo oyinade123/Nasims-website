@@ -1,0 +1,17 @@
+.green {
+  text-decoration: none;
+  color: green;
+}
+
+a {
+  color: white;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 500px;
+}
