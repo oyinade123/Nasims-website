@@ -1,6 +1,8 @@
-.green {
-  text-decoration: none;
-  color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 a {
@@ -13,5 +15,99 @@ a {
 
 .absolute {
   position: absolute;
-  top: 500px;
+  top: 0.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about {
+  margin-top: 8rem;
+}
+
+.green {
+  color: #288755;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.farmer-image {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.first-line::first-line {
+  color: #288755;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  background-color: #288755;
+  border-radius: 0.3rem;
+  padding: 0.6rem 1rem;
+  border: none;
+}
+
+.container {
+  background-color: #f2fbf8;
+}
+
+.slide {
+  text-align: center;
+}
+
+.faint-green {
+  background-color: #dbf8ea;
+  color: #288755;
+}
+
+footer {
+  background-color: #07321b;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.cards {
+  margin: 2rem 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* @media (min-width: 576px) {
+  .relative {
+    position: static;
+  }
+
+  .absolute {
+    position: static;
+    background-color: #fdf5e6;
+    color: #000000;
+  }
+
+  .row {
+    display: flex;
+  }
+} */
+
+.slider {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider card {
+  flex: 1;
+  margin-left: 2rem;
 }
