@@ -2,11 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   max-width: 100%;
 }
 
 a {
   color: white;
+}
+
+h5 {
+  display: none;
 }
 
 .relative {
@@ -54,8 +61,8 @@ button {
   background-color: #f2fbf8;
 }
 
-.slide {
-  text-align: center;
+.sub-container {
+  padding-left: 7rem;
 }
 
 .faint-green {
@@ -73,10 +80,6 @@ footer a {
 
 .cards {
   margin: 2rem 0;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   box-shadow: 0 0 10px 0 gainsboro;
 }
 
@@ -85,29 +88,15 @@ footer a {
   flex-direction: row-reverse;
 }
 
-/* @media (min-width: 576px) {
-  .relative {
-    position: static;
+
+@media (min-width: 576px) {
+  h5 {
+    display: block;
   }
 
-  .absolute {
-    position: static;
-    background-color: #fdf5e6;
-    color: #000000;
+  .navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
-
-  .row {
-    display: flex;
-  }
-} */
-
-.slider {
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.slider card {
-  flex: 1;
-  margin-left: 2rem;
 }
