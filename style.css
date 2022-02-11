@@ -8,6 +8,20 @@ body {
   max-width: 100%;
 }
 
+.navigation {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.login {
+  width: 50%;
+  margin: auto;
+}
+
+.home {
+  border-bottom: none;
+}
+
 a {
   color: white;
 }
@@ -22,9 +36,17 @@ h5 {
 
 .absolute {
   position: absolute;
-  top: 0.5rem;
+  top: 5rem;
   text-align: center;
   color: #ffffff;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.second {
+  display: none;
 }
 
 .about {
@@ -62,12 +84,19 @@ button {
 }
 
 .sub-container {
-  padding-left: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
 }
 
 .faint-green {
   background-color: #dbf8ea;
   color: #288755;
+}
+
+.down {
+  margin-top: 3rem;
 }
 
 footer {
@@ -88,7 +117,9 @@ footer a {
   flex-direction: row-reverse;
 }
 
-
+.carousel-card {
+  display: none;
+}
 @media (min-width: 576px) {
   h5 {
     display: block;
@@ -98,5 +129,78 @@ footer a {
     position: fixed;
     width: 100%;
     z-index: 1;
+  }
+
+  .home {
+    border-bottom: 4px solid #288755;
+  }
+
+  .second {
+    display: block;
+    line-height: 2rem;
+  }
+
+  .first {
+    display: none;
+  }
+
+  .old-lace {
+    background-color: #fdf5e6;
+  }
+
+  .green-color {
+    color: #07321b;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .logo-image {
+    padding-top: 8rem;
+  }
+
+  .contain {
+    background-color: #f2fbf8;
+  }
+
+  .link-2 {
+    color: black;
+  }
+
+  .text-1 {
+    padding-left: 5rem;
+  }
+
+  .top {
+    margin-top: 3rem;
+  }
+
+  .text-top {
+    margin-top: 3rem;
+  }
+
+  .flex-2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .faint-green-2 {
+    background-color: #dbf8ea;
+    color: #288755;
+  }
+
+  .cash-transfer {
+    margin-top: 6rem;
+  }
+
+  .cash-transfers {
+    margin-top: 7rem;
+  }
+
+  .carousel-card {
+    display: block;
+  }
+
+  .container {
+    display: none;
   }
 }
