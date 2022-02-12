@@ -117,7 +117,11 @@ footer a {
   flex-direction: row-reverse;
 }
 
-.carousel-card {
+.minister {
+  line-height: 0.5rem;
+}
+
+.contain {
   display: none;
 }
 @media (min-width: 576px) {
