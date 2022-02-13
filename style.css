@@ -164,6 +164,7 @@ footer a {
 
   .contain {
     background-color: #f2fbf8;
+    display: block;
   }
 
   .link-2 {
@@ -207,6 +208,4 @@ footer a {
   .container {
     display: none;
   }
-
-  
 }
